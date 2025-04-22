@@ -42,10 +42,19 @@ Ensuring spatial and temporal consistency in generated data.
 Evaluating model accuracy against real world climate trends.  
 Managing computational complexity for large scale training.  
 
-## Next Steps  
-Fine tune the model to improve accuracy.  
-Explore additional conditioning variables such as altitude and proximity to water bodies.  
-Validate generated data using external climate sources.  
+## Packages Required
+torch
+pandas
+scikit-learn
+streamlit
+joblib
+matplotlib
+numpy
+
+## Instructions On How To Run The Code
+1. Download dataset from Kaggle: Climate Change: Earth Surface Temperature Data
+2. Training the model by running 498_project.py
+3. Generate synthetic data through https://498-project-oyzu5aneovu7kydzrbnice.streamlit.app/
 
 ## Summarize
 This project aims to generate realistic synthetic climate data using deep learning.
